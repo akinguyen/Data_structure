@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=year
+comment0.target=boolean\ isLeapYear(int)
+comment0.text=\ Check\ if\ year\ is\ leap\ year.\ \n\ @param\ year\ to\ be\ analyzed\n
+comment1.params=year
+comment1.target=void\ checkLeapYear(int)
+comment1.text=\ Calls\ isLeapYear\ to\ print\ correct\ statement.\n\ \ @param\ \ year\ to\ be\ analyzed\n
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment2.text=Must\ be\ provided\ an\ integer\ as\ a\ command\ line\ argument\ ARGS.
+numComments=3

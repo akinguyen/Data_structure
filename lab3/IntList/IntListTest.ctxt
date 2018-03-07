@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ testList()
+comment0.text=\n\ Example\ test\ that\ verifies\ correctness\ of\ the\ IntList.of\ static\n\ method.\ The\ main\ point\ of\ this\ is\ to\ convince\ you\ that\n\ assertEquals\ knows\ how\ to\ handle\ IntLists\ just\ fine.\n
+comment1.params=
+comment1.target=void\ testdSquareList()
+comment2.params=
+comment2.target=void\ testSquareListRecursive()
+comment2.text=\n\ Do\ not\ use\ the\ new\ keyword\ in\ your\ tests.\ You\ can\ create\n\ lists\ using\ the\ handy\ IntList.of\ method.\n\ <p>\n\ Make\ sure\ to\ include\ test\ cases\ involving\ lists\ of\ various\ sizes\n\ on\ both\ sides\ of\ the\ operation.\ That\ includes\ the\ empty\ list,\ which\n\ can\ be\ instantiated,\ for\ example,\ with\n\ IntList\ empty\ \=\ IntList.of().\n\ <p>\n\ Keep\ in\ mind\ that\ dcatenate(A,\ B)\ is\ NOT\ required\ to\ leave\ A\ untouched.\n\ Anything\ can\ happen\ to\ A.\n
+comment3.params=
+comment3.target=void\ testDcatenate()
+comment4.params=
+comment4.target=void\ testCatenate()
+numComments=5

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=expected\ actual
+comment0.target=boolean\ checkEmpty(boolean,\ boolean)
+comment0.text=Utility\ method\ for\ printing\ out\ empty\ checks.
+comment1.params=expected\ actual
+comment1.target=boolean\ checkSize(int,\ int)
+comment1.text=Utility\ method\ for\ printing\ out\ empty\ checks.
+comment2.params=passed
+comment2.target=void\ printTestStatus(boolean)
+comment2.text=\ Prints\ a\ nice\ message\ based\ on\ whether\ a\ test\ passed.\ \nThe\ \\n\ means\ newline.
+comment3.params=
+comment3.target=void\ addIsEmptySizeTest()
+comment3.text=\ Adds\ a\ few\ things\ to\ the\ list,\ checking\ isEmpty()\ and\ size()\ are\ correct,\ \n\ finally\ printing\ the\ results.\ \n\n&&\ is\ the\ "and"\ operation.
+comment4.params=
+comment4.target=void\ addRemoveTest()
+comment4.text=Adds\ an\ item,\ then\ removes\ an\ item,\ and\ ensures\ that\ dll\ is\ empty\ afterwards.
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6

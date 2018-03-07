@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=a\ b
+comment0.target=int\ max(int,\ int)
+comment0.text=\ Returns\ the\ max\ of\ a\ and\ b.\ Do\ not\ step\ into\ this\ function.\ \n\ This\ function\ may\ have\ a\ bug,\ but\ if\ it\ does,\ you\ should\ find\ it\nby\ stepping\ over,\ not\ into.
+comment1.params=a\ b
+comment1.target=int\ add(int,\ int)
+comment1.text=\ Returns\ the\ sum\ of\ a\ and\ b.\ Do\ not\ step\ into\ this\ function.\ \n\ This\ function\ may\ have\ a\ bug,\ but\ if\ it\ does,\ you\ should\ find\ it\nby\ stepping\ over,\ not\ into.
+comment2.params=a\ b
+comment2.target=int[]\ arrayMax(int[],\ int[])
+comment2.text=\ Returns\ a\ new\ array\ where\ entry\ i\ is\ the\ max\ of\n\ a[i]\ and\ b[i].\ For\ example,\ if\ a\ \=\ {1,\ -10,\ 3}\n\ and\ b\ \=\ {0,\ 20,\ 5},\ this\ function\ will\ return\ {1,\ 20,\ 5}.\n
+comment3.params=x
+comment3.target=int\ arraySum(int[])
+comment3.text=Returns\ the\ sum\ of\ all\ elements\ in\ x.
+comment4.params=a\ b
+comment4.target=int\ sumOfElementwiseMaxes(int[],\ int[])
+comment4.text=\ Returns\ the\ sum\ of\ the\ element-wise\ max\ of\ a\ and\ b.\n\ \ For\ example\ if\ a\ \=\ {2,\ 0,\ 10,\ 14}\ and\ b\ \=\ {-5,\ 5,\ 20,\ 30},\n\ \ the\ result\ should\ be\ 57.\n
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6

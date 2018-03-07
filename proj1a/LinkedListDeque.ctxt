@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=item
+comment0.target=LinkedListDeque(java.lang.Object)
+comment1.params=
+comment1.target=LinkedListDeque()
+comment10.params=args
+comment10.target=void\ main(java.lang.String[])
+comment2.params=item
+comment2.target=void\ addFirst(java.lang.Object)
+comment3.params=item
+comment3.target=void\ addLast(java.lang.Object)
+comment4.params=
+comment4.target=boolean\ isEmpty()
+comment5.params=
+comment5.target=int\ size()
+comment6.params=
+comment6.target=void\ printDeque()
+comment7.params=
+comment7.target=java.lang.Object\ removeFirst()
+comment8.params=
+comment8.target=java.lang.Object\ removeLast()
+comment9.params=index
+comment9.target=java.lang.Object\ get(int)
+numComments=11

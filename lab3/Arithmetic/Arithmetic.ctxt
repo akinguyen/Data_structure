@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=a\ b
+comment0.target=int\ product(int,\ int)
+comment0.text=Computes\ product\ of\ two\ ints
+comment1.params=a\ b
+comment1.target=int\ sum(int,\ int)
+comment1.text=Computes\ sum\ of\ two\ ints\ (incorrectly)
+numComments=2
