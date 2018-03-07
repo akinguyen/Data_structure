@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment0.text=\n\ \ Tests\ calcDistance.\n
+comment1.params=actual\ expected\ label\ eps
+comment1.target=void\ checkEquals(double,\ double,\ java.lang.String,\ double)
+comment1.text=\n\ \ Checks\ whether\ or\ not\ two\ Doubles\ are\ equal\ and\ prints\ the\ result.\n\n\ \ @param\ \ expected\ \ \ \ Expected\ double\n\ \ @param\ \ actual\ \ \ \ \ \ Double\ received\n\ \ @param\ \ label\ \ \ \ \ \ \ Label\ for\ the\ 'test'\ case\n\ \ @param\ \ eps\ \ \ \ \ \ \ \ \ Tolerance\ for\ the\ double\ comparison.\n
+comment2.params=
+comment2.target=void\ checkCalcDistance()
+comment2.text=\n\ \ Checks\ the\ Planet\ class\ to\ make\ sure\ calcDistance\ works.\n
+numComments=3

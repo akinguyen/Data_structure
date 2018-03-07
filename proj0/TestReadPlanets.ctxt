@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=actual\ expected\ eps
+comment0.target=boolean\ doubleEquals(double,\ double,\ double)
+comment1.params=
+comment1.target=java.lang.String\ checkReadPlanets()
+comment1.text=Checks\ to\ make\ sure\ that\ readPlanets()\ works\ perfectly.
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+numComments=3

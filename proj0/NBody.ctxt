@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=data
+comment0.target=double\ readRadius(java.lang.String)
+comment0.text=Read\ radius\ of\ the\ universe\ from\ the\ given\ data
+comment1.params=data
+comment1.target=Planet[]\ readPlanets(java.lang.String)
+comment1.text=Read\ planets'\ datas\ from\ the\ given\ data
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment2.text=\n\ Read\ command\ line\ arguments\:\ 0th\ \=\=\ double\ T,\ 1st\ \=\=\ double\ dt\ ,\ 2nd\ \=\=\ String\ filename\n
+numComments=3

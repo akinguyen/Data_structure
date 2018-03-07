@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ drawThree()
+comment0.text=Draws\ three\ copies\ of\ the\ image\ in\ a\ rectangular\ pattern.
+comment1.params=
+comment1.target=void\ drawRandom()
+comment1.text=\ Draws\ random\ copies\ of\ the\ image,\ clearing\ in\ between\ndrawings.
+comment2.params=
+comment2.target=void\ drawZoom()
+comment2.text=\ Stick\ a\ copy\ of\ the\ image\ in\ the\ dead\ center\ of\ the\ image,\n\ which\ is\ position\ (0,\ 0).\ Slowly\ zoom\ in\ on\ the\ image,\ \nthen\ zoom\ back\ out\ (but\ faster\ than\ we\ zoomed\ in).
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4

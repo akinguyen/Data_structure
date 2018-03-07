@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment0.text=\n\ \ Tests\ the\ Planet\ constructor\ to\ make\ sure\ it's\ working\ correctly.\n
+comment1.params=expected\ actual\ label
+comment1.target=void\ checkEquals(double,\ double,\ java.lang.String)
+comment1.text=\n\ \ Checks\ whether\ or\ not\ two\ Doubles\ are\ equal\ and\ prints\ the\ result.\n\n\ \ @param\ \ expected\ \ \ \ Expected\ double\n\ \ @param\ \ actual\ \ \ \ \ \ Double\ received\n\ \ @param\ \ label\ \ \ \ \ \ \ Label\ for\ the\ 'test'\ case\n
+comment2.params=expected\ actual\ label
+comment2.target=void\ checkStringEquals(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.text=\n\ \ Checks\ whether\ or\ not\ two\ Strings\ are\ equal\ and\ prints\ the\ result.\n\ \ @param\ \ expected\ \ \ \ Expected\ String\n\ \ @param\ \ actual\ \ \ \ \ \ String\ received\n\ \ @param\ \ label\ \ \ \ \ \ \ Label\ for\ the\ 'test'\ case\n
+comment3.params=
+comment3.target=void\ checkPlanetConstructor()
+comment3.text=\n\ \ Checks\ Planet\ constructors\ to\ make\ sure\ they\ are\ setting\ instance\n\ \ variables\ correctly.\n
+numComments=4

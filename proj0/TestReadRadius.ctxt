@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=actual\ expected\ label\ eps
+comment0.target=void\ checkEquals(double,\ double,\ java.lang.String,\ double)
+comment0.text=\n\ \ Checks\ whether\ or\ not\ two\ Doubles\ are\ equal\ and\ prints\ the\ result.\n\n\ \ @param\ \ expected\ \ \ \ Expected\ double\n\ \ @param\ \ actual\ \ \ \ \ \ Double\ received\n\ \ @param\ \ label\ \ \ \ \ \ \ Label\ for\ the\ 'test'\ case\n\ \ @param\ \ eps\ \ \ \ \ \ \ \ \ Tolerance\ for\ the\ double\ comparison.\n
+comment1.params=
+comment1.target=void\ checkReadRadius()
+comment1.text=\n\ \ Checks\ the\ NBody.readRadius()\ method.\n
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+numComments=3

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment0.text=\n\ \ Tests\ calcForceExertedByXY.\n
+comment1.params=actual\ expected\ eps
+comment1.target=boolean\ approxEqual(double,\ double,\ double)
+comment1.text=\ Checks\ whether\ two\ doubles\ are\ approximately\ equal.\ \n\ \ @param\ \ expected\ \ \ \ Expected\ double\n\ \ @param\ \ actual\ \ \ \ \ \ Double\ received\n\ \ @param\ \ eps\ \ \ \ \ \ \ \ \ Tolerance\ for\ the\ double\ comparison.\n
+comment2.params=actual\ expected\ label\ eps
+comment2.target=void\ checkEquals(double,\ double,\ java.lang.String,\ double)
+comment2.text=\n\ \ Checks\ whether\ or\ not\ two\ Doubles\ are\ equal\ and\ prints\ the\ result.\n\n\ \ @param\ \ expected\ \ \ \ Expected\ double\n\ \ @param\ \ actual\ \ \ \ \ \ Double\ received\n\ \ @param\ \ label\ \ \ \ \ \ \ Label\ for\ the\ 'test'\ case\n\ \ @param\ \ eps\ \ \ \ \ \ \ \ \ Tolerance\ for\ the\ double\ comparison.\n
+comment3.params=
+comment3.target=void\ checkCalcForceExertedByXY()
+comment3.text=\n\ \ Checks\ the\ Planet\ class\ to\ make\ sure\ calcForceExertedByXY\ works.\n
+numComments=4

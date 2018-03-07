@@ -1,0 +1,82 @@
+#BlueJ class context
+comment0.params=
+comment0.target=StdRandom()
+comment1.params=s
+comment1.target=void\ setSeed(long)
+comment1.text=\n\ Sets\ the\ seed\ of\ the\ pseudorandom\ number\ generator.\n\ This\ method\ enables\ you\ to\ produce\ the\ same\ sequence\ of\ "random"\n\ number\ for\ each\ execution\ of\ the\ program.\n\ Ordinarily,\ you\ should\ call\ this\ method\ at\ most\ once\ per\ program.\n\n\ @param\ s\ the\ seed\n
+comment10.params=
+comment10.target=double\ gaussian()
+comment10.text=\n\ Returns\ a\ random\ real\ number\ from\ a\ standard\ Gaussian\ distribution.\n\ \n\ @return\ a\ random\ real\ number\ from\ a\ standard\ Gaussian\ distribution\n\ \ \ \ \ \ \ \ \ (mean\ 0\ and\ standard\ deviation\ 1).\n
+comment11.params=mu\ sigma
+comment11.target=double\ gaussian(double,\ double)
+comment11.text=\n\ Returns\ a\ random\ real\ number\ from\ a\ Gaussian\ distribution\ with\ mean\ &mu;\n\ and\ standard\ deviation\ &sigma;.\n\ \n\ @param\ \ mu\ the\ mean\n\ @param\ \ sigma\ the\ standard\ deviation\n\ @return\ a\ real\ number\ distributed\ according\ to\ the\ Gaussian\ distribution\n\ \ \ \ \ \ \ \ \ with\ mean\ <tt>mu</tt>\ and\ standard\ deviation\ <tt>sigma</tt>\n
+comment12.params=p
+comment12.target=int\ geometric(double)
+comment12.text=\n\ Returns\ a\ random\ integer\ from\ a\ geometric\ distribution\ with\ success\n\ probability\ <em>p</em>.\n\ \n\ @param\ \ p\ the\ parameter\ of\ the\ geometric\ distribution\n\ @return\ a\ random\ integer\ from\ a\ geometric\ distribution\ with\ success\n\ \ \ \ \ \ \ \ \ probability\ <tt>p</tt>\n\ @throws\ IllegalArgumentException\ unless\ <tt>p\ >\=\ 0.0</tt>\ and\ <tt>p\ <\=\ 1.0</tt>\n
+comment13.params=lambda
+comment13.target=int\ poisson(double)
+comment13.text=\n\ Returns\ a\ random\ integer\ from\ a\ Poisson\ distribution\ with\ mean\ &lambda;.\n\n\ @param\ \ lambda\ the\ mean\ of\ the\ Poisson\ distribution\n\ @return\ a\ random\ integer\ from\ a\ Poisson\ distribution\ with\ mean\ <tt>lambda</tt>\n\ @throws\ IllegalArgumentException\ unless\ <tt>lambda\ >\ 0.0</tt>\ and\ not\ infinite\n
+comment14.params=
+comment14.target=double\ pareto()
+comment14.text=\n\ Returns\ a\ random\ real\ number\ from\ the\ standard\ Pareto\ distribution.\n\n\ @return\ a\ random\ real\ number\ from\ the\ standard\ Pareto\ distribution\n
+comment15.params=alpha
+comment15.target=double\ pareto(double)
+comment15.text=\n\ Returns\ a\ random\ real\ number\ from\ a\ Pareto\ distribution\ with\n\ shape\ parameter\ &alpha;.\n\n\ @param\ \ alpha\ shape\ parameter\n\ @return\ a\ random\ real\ number\ from\ a\ Pareto\ distribution\ with\ shape\n\ \ \ \ \ \ \ \ \ parameter\ <tt>alpha</tt>\n\ @throws\ IllegalArgumentException\ unless\ <tt>alpha\ >\ 0.0</tt>\n
+comment16.params=
+comment16.target=double\ cauchy()
+comment16.text=\n\ Returns\ a\ random\ real\ number\ from\ the\ Cauchy\ distribution.\n\n\ @return\ a\ random\ real\ number\ from\ the\ Cauchy\ distribution.\n
+comment17.params=probabilities
+comment17.target=int\ discrete(double[])
+comment17.text=\n\ Returns\ a\ random\ integer\ from\ the\ specified\ discrete\ distribution.\n\n\ @param\ \ probabilities\ the\ probability\ of\ occurrence\ of\ each\ integer\n\ @return\ a\ random\ integer\ from\ a\ discrete\ distribution\:\n\ \ \ \ \ \ \ \ \ <tt>i</tt>\ with\ probability\ <tt>probabilities[i]</tt>\n\ @throws\ NullPointerException\ if\ <tt>probabilities</tt>\ is\ <tt>null</tt>\n\ @throws\ IllegalArgumentException\ if\ sum\ of\ array\ entries\ is\ not\ (very\ nearly)\ equal\ to\ <tt>1.0</tt>\n\ @throws\ IllegalArgumentException\ unless\ <tt>probabilities[i]\ >\=\ 0.0</tt>\ for\ each\ index\ <tt>i</tt>\n
+comment18.params=frequencies
+comment18.target=int\ discrete(int[])
+comment18.text=\n\ Returns\ a\ random\ integer\ from\ the\ specified\ discrete\ distribution.\n\n\ @param\ \ frequencies\ the\ frequency\ of\ occurrence\ of\ each\ integer\n\ @return\ a\ random\ integer\ from\ a\ discrete\ distribution\:\n\ \ \ \ \ \ \ \ \ <tt>i</tt>\ with\ probability\ proportional\ to\ <tt>frequencies[i]</tt>\n\ @throws\ NullPointerException\ if\ <tt>frequencies</tt>\ is\ <tt>null</tt>\n\ @throws\ IllegalArgumentException\ if\ all\ array\ entries\ are\ <tt>0</tt>\n\ @throws\ IllegalArgumentException\ if\ <tt>frequencies[i]</tt>\ is\ negative\ for\ any\ index\ <tt>i</tt>\n\ @throws\ IllegalArgumentException\ if\ sum\ of\ frequencies\ exceeds\ <tt>Integer.MAX_VALUE</tt>\ (2<sup>31</sup>\ -\ 1)\n
+comment19.params=lambda
+comment19.target=double\ exp(double)
+comment19.text=\n\ Returns\ a\ random\ real\ number\ from\ an\ exponential\ distribution\n\ with\ rate\ &lambda;.\n\ \n\ @param\ \ lambda\ the\ rate\ of\ the\ exponential\ distribution\n\ @return\ a\ random\ real\ number\ from\ an\ exponential\ distribution\ with\n\ \ \ \ \ \ \ \ \ rate\ <tt>lambda</tt>\n\ @throws\ IllegalArgumentException\ unless\ <tt>lambda\ >\ 0.0</tt>\n
+comment2.params=
+comment2.target=long\ getSeed()
+comment2.text=\n\ Returns\ the\ seed\ of\ the\ pseudorandom\ number\ generator.\n\n\ @return\ the\ seed\n
+comment20.params=a
+comment20.target=void\ shuffle(java.lang.Object[])
+comment20.text=\n\ Rearranges\ the\ elements\ of\ the\ specified\ array\ in\ uniformly\ random\ order.\n\n\ @param\ \ a\ the\ array\ to\ shuffle\n\ @throws\ NullPointerException\ if\ <tt>a</tt>\ is\ <tt>null</tt>\n
+comment21.params=a
+comment21.target=void\ shuffle(double[])
+comment21.text=\n\ Rearranges\ the\ elements\ of\ the\ specified\ array\ in\ uniformly\ random\ order.\n\n\ @param\ \ a\ the\ array\ to\ shuffle\n\ @throws\ NullPointerException\ if\ <tt>a</tt>\ is\ <tt>null</tt>\n
+comment22.params=a
+comment22.target=void\ shuffle(int[])
+comment22.text=\n\ Rearranges\ the\ elements\ of\ the\ specified\ array\ in\ uniformly\ random\ order.\n\n\ @param\ \ a\ the\ array\ to\ shuffle\n\ @throws\ NullPointerException\ if\ <tt>a</tt>\ is\ <tt>null</tt>\n
+comment23.params=a\ lo\ hi
+comment23.target=void\ shuffle(java.lang.Object[],\ int,\ int)
+comment23.text=\n\ Rearranges\ the\ elements\ of\ the\ specified\ subarray\ in\ uniformly\ random\ order.\n\n\ @param\ \ a\ the\ array\ to\ shuffle\n\ @param\ \ lo\ the\ left\ endpoint\ (inclusive)\n\ @param\ \ hi\ the\ right\ endpoint\ (inclusive)\n\ @throws\ NullPointerException\ if\ <tt>a</tt>\ is\ <tt>null</tt>\n\ @throws\ IndexOutOfBoundsException\ unless\ <tt>(0\ <\=\ lo)\ &&\ (lo\ <\=\ hi)\ &&\ (hi\ <\ a.length)</tt>\n\ \n
+comment24.params=a\ lo\ hi
+comment24.target=void\ shuffle(double[],\ int,\ int)
+comment24.text=\n\ Rearranges\ the\ elements\ of\ the\ specified\ subarray\ in\ uniformly\ random\ order.\n\n\ @param\ \ a\ the\ array\ to\ shuffle\n\ @param\ \ lo\ the\ left\ endpoint\ (inclusive)\n\ @param\ \ hi\ the\ right\ endpoint\ (inclusive)\n\ @throws\ NullPointerException\ if\ <tt>a</tt>\ is\ <tt>null</tt>\n\ @throws\ IndexOutOfBoundsException\ unless\ <tt>(0\ <\=\ lo)\ &&\ (lo\ <\=\ hi)\ &&\ (hi\ <\ a.length)</tt>\n
+comment25.params=a\ lo\ hi
+comment25.target=void\ shuffle(int[],\ int,\ int)
+comment25.text=\n\ Rearranges\ the\ elements\ of\ the\ specified\ subarray\ in\ uniformly\ random\ order.\n\n\ @param\ \ a\ the\ array\ to\ shuffle\n\ @param\ \ lo\ the\ left\ endpoint\ (inclusive)\n\ @param\ \ hi\ the\ right\ endpoint\ (inclusive)\n\ @throws\ NullPointerException\ if\ <tt>a</tt>\ is\ <tt>null</tt>\n\ @throws\ IndexOutOfBoundsException\ unless\ <tt>(0\ <\=\ lo)\ &&\ (lo\ <\=\ hi)\ &&\ (hi\ <\ a.length)</tt>\n
+comment26.params=args
+comment26.target=void\ main(java.lang.String[])
+comment26.text=\n\ Unit\ test.\n
+comment3.params=
+comment3.target=double\ uniform()
+comment3.text=\n\ Returns\ a\ random\ real\ number\ uniformly\ in\ [0,\ 1).\n\n\ @return\ a\ random\ real\ number\ uniformly\ in\ [0,\ 1)\n
+comment4.params=n
+comment4.target=int\ uniform(int)
+comment4.text=\n\ Returns\ a\ random\ integer\ uniformly\ in\ [0,\ n).\n\ \n\ @param\ n\ number\ of\ possible\ integers\n\ @return\ a\ random\ integer\ uniformly\ between\ 0\ (inclusive)\ and\ <tt>N</tt>\ (exclusive)\n\ @throws\ IllegalArgumentException\ if\ <tt>n\ <\=\ 0</tt>\n
+comment5.params=
+comment5.target=double\ random()
+comment5.text=\n\ Returns\ a\ random\ real\ number\ uniformly\ in\ [0,\ 1).\n\ \n\ @return\ \ \ \ \ a\ random\ real\ number\ uniformly\ in\ [0,\ 1)\n\ @deprecated\ Replaced\ by\ {@link\ \#uniform()}.\n
+comment6.params=a\ b
+comment6.target=int\ uniform(int,\ int)
+comment6.text=\n\ Returns\ a\ random\ integer\ uniformly\ in\ [a,\ b).\n\ \n\ @param\ \ a\ the\ left\ endpoint\n\ @param\ \ b\ the\ right\ endpoint\n\ @return\ a\ random\ integer\ uniformly\ in\ [a,\ b)\n\ @throws\ IllegalArgumentException\ if\ <tt>b\ <\=\ a</tt>\n\ @throws\ IllegalArgumentException\ if\ <tt>b\ -\ a\ >\=\ Integer.MAX_VALUE</tt>\n
+comment7.params=a\ b
+comment7.target=double\ uniform(double,\ double)
+comment7.text=\n\ Returns\ a\ random\ real\ number\ uniformly\ in\ [a,\ b).\n\ \n\ @param\ \ a\ the\ left\ endpoint\n\ @param\ \ b\ the\ right\ endpoint\n\ @return\ a\ random\ real\ number\ uniformly\ in\ [a,\ b)\n\ @throws\ IllegalArgumentException\ unless\ <tt>a\ <\ b</tt>\n
+comment8.params=p
+comment8.target=boolean\ bernoulli(double)
+comment8.text=\n\ Returns\ a\ random\ boolean\ from\ a\ Bernoulli\ distribution\ with\ success\n\ probability\ <em>p</em>.\n\n\ @param\ \ p\ the\ probability\ of\ returning\ <tt>true</tt>\n\ @return\ <tt>true</tt>\ with\ probability\ <tt>p</tt>\ and\n\ \ \ \ \ \ \ \ \ <tt>false</tt>\ with\ probability\ <tt>p</tt>\n\ @throws\ IllegalArgumentException\ unless\ <tt>p\ >\=\ 0.0</tt>\ and\ <tt>p\ <\=\ 1.0</tt>\n
+comment9.params=
+comment9.target=boolean\ bernoulli()
+comment9.text=\n\ Returns\ a\ random\ boolean\ from\ a\ Bernoulli\ distribution\ with\ success\n\ probability\ 1/2.\n\ \n\ @return\ <tt>true</tt>\ with\ probability\ 1/2\ and\n\ \ \ \ \ \ \ \ \ <tt>false</tt>\ with\ probability\ 1/2\n
+numComments=27

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment0.text=\n\ \ Tests\ calcNetForceExertedByXY.\n
+comment1.params=expected\ actual\ label
+comment1.target=void\ checkEquals(double,\ double,\ java.lang.String)
+comment1.text=\n\ \ Checks\ whether\ or\ not\ two\ Doubles\ are\ equal\ and\ prints\ the\ result.\n\n\ \ @param\ \ expected\ \ \ \ Expected\ double\n\ \ @param\ \ actual\ \ \ \ \ \ Double\ received\n\ \ @param\ \ label\ \ \ \ \ \ \ Label\ for\ the\ 'test'\ case\n
+comment2.params=value\ places
+comment2.target=double\ round(double,\ int)
+comment2.text=\n\ \ Rounds\ a\ double\ value\ to\ a\ number\ of\ decimal\ places.\n\n\ \ @param\ \ value\ \ \ Double\ to\ be\ rounded.\n\ \ @param\ \ places\ \ Integer\ number\ of\ places\ to\ round\ VALUE\ to.\n
+comment3.params=
+comment3.target=void\ calcNetForceExertedByXY()
+comment3.text=\n\ \ Checks\ the\ Planet\ class\ to\ make\ sure\ calcNetForceExertedByXY\ works.\n
+numComments=4

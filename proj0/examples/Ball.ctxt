@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Ball()
+comment1.params=
+comment1.target=void\ bounceOffVerticalWall()
+comment2.params=
+comment2.target=void\ bounceOffHorizontalWall()
+comment3.params=
+comment3.target=void\ move()
+comment4.params=
+comment4.target=void\ draw()
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6
