@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 package examples;
 
+=======
+>>>>>>> fa1f2c324bdce43c52a611c56669665d0fbd785a
 /*************************************************************************
  *  Compilation:  javac In.java
  *  Execution:    java In   (basic test --- see source for required files)

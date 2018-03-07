@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 package DebugPractice;
 
+=======
+>>>>>>> fa1f2c324bdce43c52a611c56669665d0fbd785a
 /**
  * Exercise to showcase the step over button.
  * Code adapted from https://stackoverflow.com/questions/4895173/bitwise-multiply-and-add-in-java and https://stackoverflow.com/questions/1533131/what-useful-bitwise-operator-code-tricks-should-a-developer-know-about

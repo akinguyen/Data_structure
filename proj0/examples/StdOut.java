@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 package examples;
+=======
+>>>>>>> fa1f2c324bdce43c52a611c56669665d0fbd785a
 /*************************************************************************
  *  Compilation:  javac StdOut.java
  *  Execution:    java StdOut

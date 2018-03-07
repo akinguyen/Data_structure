@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 package IntList;
 
+=======
+>>>>>>> fa1f2c324bdce43c52a611c56669665d0fbd785a
 import static org.junit.Assert.*;
 
 import org.junit.Test;

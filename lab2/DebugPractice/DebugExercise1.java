@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 package DebugPractice;
 
+=======
+>>>>>>> fa1f2c324bdce43c52a611c56669665d0fbd785a
 /**
  * Exercise for learning how the debug, breakpoint, and step-into
  * feature work.
