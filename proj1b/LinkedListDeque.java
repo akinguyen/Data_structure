@@ -1,4 +1,4 @@
-public class LinkedListDeque<T>{
+public class LinkedListDeque<T> implements Deque<T>{
     private DoubleNode sendFront;
     private int size;
     private DoubleNode sendBack;
@@ -34,27 +34,31 @@ public class LinkedListDeque<T>{
         
     }
     
+    @Override
     public void addFirst(T item){
         size += 1;
         sendFront.next = new DoubleNode(sendFront,item,sendFront.next);
         sendFront.next.next.prev = sendFront.next;
     }
     
+    @Override
     public void addLast(T item){
         size += 1;
         sendBack.prev = new DoubleNode(sendBack.prev,item,sendBack);
         sendBack.prev.prev.next = sendBack.prev;
     }
     
-    
+    @Override
     public boolean isEmpty(){
         return !(size > 0);
     }
     
+    @Override
     public int size(){
         return size;
     }
     
+    @Override
     public void printDeque(){
         System.out.print("{ ");
         for (int i = 0; i < size;i++){
@@ -63,6 +67,7 @@ public class LinkedListDeque<T>{
         System.out.println("}");
     }
     
+    @Override
     public T removeFirst(){
         if (sendFront.next != sendBack){
         size -= 1;
@@ -74,6 +79,7 @@ public class LinkedListDeque<T>{
        return null;
     }
     
+    @Override
     public T removeLast(){
         if (sendBack.prev != sendFront){
           size -= 1;
@@ -85,6 +91,7 @@ public class LinkedListDeque<T>{
         return null;
     }
     
+    @Override
     public T get(int index){
        DoubleNode a = sendFront;
        int i = 0;
@@ -96,10 +103,5 @@ public class LinkedListDeque<T>{
            i++;
        }
        return null;
-    }
-    
-     public static void main (String[] args){
-        LinkedListDeque<Integer> a = new LinkedListDeque<>(3);
-        a.printDeque();
     }
 }

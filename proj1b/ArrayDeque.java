@@ -1,4 +1,4 @@
-public class ArrayDeque<Type> {
+public class ArrayDeque<Type> implements Deque<Type>{
     /** Check the index that needs to be added to the front of the Deque */
     private int nextFirst;
   
@@ -57,11 +57,12 @@ public class ArrayDeque<Type> {
         nextFirst += cap-items.length;
         items = a;
   }
-
+  
+  @Override
   /**
    * Add new item to the front of the Deque
    */
-    public void addFirst(Type item){
+   public void addFirst(Type item){
         size += 1;
         if(items[nextFirst] != null){
             resize(size*factor);
@@ -76,7 +77,8 @@ public class ArrayDeque<Type> {
         }
         
     }
-    
+  
+  @Override
   /**
    * Add new item to the back of the Deque
    */
@@ -96,8 +98,8 @@ public class ArrayDeque<Type> {
         
     }
     
-    
-    /**
+   @Override 
+   /**
      *  Check whether the Deque is Empty
      *  @return 
      *  Empty is True/False
@@ -105,8 +107,9 @@ public class ArrayDeque<Type> {
     public boolean isEmpty(){
         return !(size > 0);
     }
-    
-    /**
+   
+   @Override
+   /**
      *  Return the size or number of elements in the Deque
      *  @return
      *  The size of the Deque
@@ -115,6 +118,7 @@ public class ArrayDeque<Type> {
         return size;
     }
     
+    @Override
     /**
      * Print out all of the element in the Deque 
      */
@@ -151,6 +155,8 @@ public class ArrayDeque<Type> {
      
     }
   
+    
+    @Override
    /**
     *  Remove the front item of the Deque
     *  @return
@@ -187,6 +193,8 @@ public class ArrayDeque<Type> {
       return remove;
    }
    
+   
+   @Override
    /**
     * Remove the back item of the Deque
     * @return
@@ -254,6 +262,7 @@ public class ArrayDeque<Type> {
         return -1;
     }
     
+   @Override
    /**
     * Return the element on the given index ( user's index )
     * @return

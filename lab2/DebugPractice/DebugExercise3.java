@@ -1,8 +1,6 @@
-<<<<<<< HEAD
+
 package DebugPractice;
 
-=======
->>>>>>> fa1f2c324bdce43c52a611c56669665d0fbd785a
 /**
  * Created by jug on 1/22/18.
  */

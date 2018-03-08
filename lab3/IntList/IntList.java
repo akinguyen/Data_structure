@@ -30,7 +30,7 @@ public class IntList {
      * A List with null rest, and first = 0.
      */
     public IntList() {
-    /* NOTE: public IntList () { }  would also work. */
+      /* NOTE: public IntList () { }  would also work. */
         this(0, null);
     }
 
@@ -141,10 +141,31 @@ public class IntList {
        }
     }
 
-
-
-
-
+    public static IntList reverse(IntList A){
+        IntList move; IntList res;
+        res = move = A;
+        int copy = 0;
+        int size = 0;
+        
+        while (move != null){
+            size ++;
+            move = move.rest;
+        }
+        move = A;
+        
+        while(A.rest != null){
+            for (int i = 1; i < size ; i++){
+                move = move.rest;
+            }
+            copy = A.first;
+            A.first = move.first;
+            move.first = copy;
+            move = A = A.rest;
+            size -= 2;
+        }
+        
+        return res;
+    }
 
 
 

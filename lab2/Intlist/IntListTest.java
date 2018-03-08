@@ -1,8 +1,6 @@
-<<<<<<< HEAD
+
 package Intlist;
 
-=======
->>>>>>> fa1f2c324bdce43c52a611c56669665d0fbd785a
 import static org.junit.Assert.*;
 
 import org.junit.Test;
@@ -70,7 +68,7 @@ public class IntListTest {
         assertEquals(exp, IntList.catenate(A, B));
         assertEquals(IntList.of(1, 2, 3), A);
     }
-<<<<<<< HEAD
+
     
     @Test public void testCatenateRecursive() {
         IntList A = IntList.of(1, 2, 3);
@@ -87,7 +85,5 @@ public class IntListTest {
         assertEquals(exp, IntList.dcatenateRecursive(A, B));
         assertEquals(IntList.of(1, 2, 3, 4, 5, 6), A);
     }
-=======
 
->>>>>>> fa1f2c324bdce43c52a611c56669665d0fbd785a
 }

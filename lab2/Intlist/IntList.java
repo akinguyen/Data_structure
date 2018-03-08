@@ -1,10 +1,7 @@
-<<<<<<< HEAD
+
 package Intlist;
 import java.util.Formatter;
-=======
-import java.util.Formatter;
 
->>>>>>> fa1f2c324bdce43c52a611c56669665d0fbd785a
 /**
  * A naked recursive list of integers, similar to what we saw in lecture 3, but
  * with a large number of additional methods.
@@ -25,10 +22,7 @@ public class IntList {
     /**
      * A List with first FIRST0 and rest REST0.
      */
-<<<<<<< HEAD
-    
-=======
->>>>>>> fa1f2c324bdce43c52a611c56669665d0fbd785a
+
     public IntList(int first0, IntList rest0) {
         first = first0;
         rest = rest0;
@@ -90,17 +84,12 @@ public class IntList {
      */
 
     public static IntList dcatenate(IntList A, IntList B) {
-<<<<<<< HEAD
         IntList result = A;
         while (result.rest != null){
             result = result.rest;
         }
         result.rest = B;
         return A ;
-=======
-        //TODO:  fill in method
-        return null;
->>>>>>> fa1f2c324bdce43c52a611c56669665d0fbd785a
     }
 
     /**
@@ -108,7 +97,7 @@ public class IntList {
      * * elements of B.  May NOT modify items of A.  Use 'new'.
      */
     public static IntList catenate(IntList A, IntList B) {
-<<<<<<< HEAD
+
         IntList res; IntList last;
         if (A == null)
         {
@@ -153,10 +142,7 @@ public class IntList {
            A.rest = dcatenateRecursive(A.rest,B);
            return A;
        }
-=======
-        //TODO:  fill in method
-        return null;
->>>>>>> fa1f2c324bdce43c52a611c56669665d0fbd785a
+
     }
 
 
@@ -168,15 +154,6 @@ public class IntList {
 
 
 
-
-<<<<<<< HEAD
-=======
-
-
-
-
-
->>>>>>> fa1f2c324bdce43c52a611c56669665d0fbd785a
     /**
      * DO NOT MODIFY ANYTHING BELOW THIS LINE! Many of the concepts below here
      * will be introduced later in the course or feature some form of advanced

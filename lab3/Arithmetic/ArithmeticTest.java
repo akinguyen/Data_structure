@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-package Arithmetic;
 
-=======
->>>>>>> fa1f2c324bdce43c52a611c56669665d0fbd785a
+package Arithmetic;
 import static org.junit.Assert.*;
 import org.junit.Test;
 
@@ -32,17 +29,12 @@ public class ArithmeticTest {
         assertEquals(-6, Arithmetic.sum(0, -6));
         assertEquals(0, Arithmetic.sum(6, -6));
     }
-
-<<<<<<< HEAD
-    /* Run the unit tests in this file. 
-    public static void main(String... args) {        
-        jh61b.junit.TestRunner.runTests("all", ArithmeticTest.class);
-    }
+    /**
+    Run the unit tests in this file. 
     */
-=======
-    /* Run the unit tests in this file. */
-    public static void main(String... args) {        
+    public static void main(String[] args) {        
         jh61b.junit.TestRunner.runTests("all", ArithmeticTest.class);
     }
->>>>>>> fa1f2c324bdce43c52a611c56669665d0fbd785a
+    
+
 }

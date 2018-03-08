@@ -1,8 +1,6 @@
-<<<<<<< HEAD
+
 package examples;
 
-=======
->>>>>>> fa1f2c324bdce43c52a611c56669665d0fbd785a
 /** Lets the user request the yearly salt production
  *  in metric tons of a given country! Fun fun fun!
  *  @author Josh Hug
