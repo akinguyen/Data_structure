@@ -4,17 +4,11 @@
 public class StudentArrayDequeLauncher {
     public static void main(String[] args) {
         StudentArrayDeque<Integer> sad1 = new StudentArrayDeque<>();
-
-        for (int i = 0; i < 10; i += 1) {
-            double numberBetweenZeroAndOne = StdRandom.uniform();
-
-            if (numberBetweenZeroAndOne < 0.5) {
-                sad1.addLast(i);
-            } else {
-                sad1.addFirst(i);
-            }
-        }
-
+        LinkedListDeque<Integer> test = new LinkedListDeque<>();
+        test.addLast(1);
+        sad1.addLast(1);
         sad1.printDeque();
+        test.printDeque();
+        System.out.println(test.get(test.size()-1).equals(sad1.get(sad1.size()-1)));
     }
 } 
