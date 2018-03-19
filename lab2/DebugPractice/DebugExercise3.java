@@ -1,6 +1,8 @@
 
 package DebugPractice;
 
+import edu.princeton.cs.introcs.In;
+
 /**
  * Created by jug on 1/22/18.
  */
@@ -22,7 +24,7 @@ public class DebugExercise3 {
     }
 
     public static void main(String[] args) {
-        In in = new In("foods.csv");
+        In in = new In("C:\\Users\\Nqk\\61B\\Data_structure\\lab2\\DebugPractice\\foods.csv");
         System.out.println(countTurnips(in));
-    }
-}
+        }
+        }

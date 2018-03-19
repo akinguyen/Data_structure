@@ -99,6 +99,7 @@ public class ArrayListDequeTest
     
     public static void main(String[] args){
       checkEmptyAddRemoveGetSize();
+
    }
    
 }

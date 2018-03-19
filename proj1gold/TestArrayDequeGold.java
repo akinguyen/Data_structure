@@ -4,11 +4,11 @@ import static org.junit.Assert.*;
 public class TestArrayDequeGold
 {
    LinkedListDeque<Integer> exp = new LinkedListDeque<>();
-   StudentArrayDeque<Integer> act = new StudentArrayDeque<>();
+   ArrayDeque<Integer> act = new ArrayDeque<>();
    String operation = "";
    boolean check = true;
    
-   @Test (timeout = 100000)
+   @Test
    public void AutoGrader(){
        int rdm; int rdn; int rdi;
        while (check){

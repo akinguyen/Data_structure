@@ -10,12 +10,14 @@ public class Palindrome
         }
             return true;
         }
-        
+
     public boolean isPalindrome(String word){
-        Deque a = wordToDeque(word);
-        return isPalindrome(a,a.size());
+        if (word.length() < 2){
+            return true;
+        }
+        return word.charAt(0) == word.charAt(word.length()-1) && isPalindrome(word.substring(1,word.length()-1));
     }
-    
+
 
     public boolean isPalindrome(String word, CharacterComparator cc){
         Deque<Character> a = wordToDeque(word);
