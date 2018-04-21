@@ -81,8 +81,38 @@ public class TERenderer {
      * This method assumes that the xScale and yScale have been set such that the max x
      * value is the width of the screen in tiles, and the max y value is the height of
      * the screen in tiles.
-     * @param world the 2D TETile[][] array to render
      */
+
+    private void mouseFeature(TETile[][] world){
+        int x = (int) StdDraw.mouseX();
+        int y = (int) StdDraw.mouseY();
+        if (y < 37) {
+            writeText(world[x][y].description(), 15, Color.white, new Position(4, 38));
+        }
+        else {
+            writeText("Game Bar", 15, Color.white, new Position(4, 38));
+        }
+    }
+
+    private void gameBar(int keyCount, int keyTotal, int stage, int live){
+        StdDraw.setPenColor(Color.white);
+        StdDraw.line(0,37,80,37);
+        writeText("Keys: " + keyCount +"/" +keyTotal, 15,Color.white, new Position(10,38));
+        writeText("Stage: " +stage, 15,Color.white, new Position(16,38));
+        writeText("Lives: " +live, 15,Color.white, new Position(22,38));
+        writeText("Save (H)", 15,Color.white, new Position(28,38));
+        writeText("Menu (M)", 15,Color.white, new Position(34,38));
+        writeText("Quit (Q)", 15,Color.white, new Position(40,38));
+    }
+
+    private void writeText(String s, int fontSize, Color c, Position p){
+        Font font = new Font("Monaco", Font.BOLD, fontSize);
+        StdDraw.setFont(font);
+        StdDraw.setPenColor(c);
+        StdDraw.text(p.getX(), p.getY(), s);
+    }
+
+
     public void renderFrame(TETile[][] world) {
         int numXTiles = world.length;
         int numYTiles = world[0].length;
@@ -98,4 +128,23 @@ public class TERenderer {
         }
         StdDraw.show();
     }
+
+    public void renderFrame(TETile[][] world, int keyCount, int keyTotal, int stage, int live) {
+        int numXTiles = world.length;
+        int numYTiles = world[0].length;
+        StdDraw.clear(new Color(0, 0, 0));
+        for (int x = 0; x < numXTiles; x += 1) {
+            for (int y = 0; y < numYTiles; y += 1) {
+                if (world[x][y] == null) {
+                    throw new IllegalArgumentException("Tile at position x=" + x + ", y=" + y
+                            + " is null.");
+                }
+                world[x][y].draw(x + xOffset, y + yOffset);
+            }
+        }
+        gameBar(keyCount, keyTotal, stage, live);
+        mouseFeature(world);
+        StdDraw.show();
+    }
+
 }

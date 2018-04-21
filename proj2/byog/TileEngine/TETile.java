@@ -21,10 +21,10 @@ import byog.Core.RandomUtils;
  * to make your TETile class mutable, if you prefer.
  */
 
-public class TETile {
+public class TETile implements java.io.Serializable{
     private final char character; // Do not rename character or the autograder will break.
-    private final Color textColor;
-    private final Color backgroundColor;
+    private Color textColor;
+    private Color backgroundColor;
     private final String description;
     private final String filepath;
 
@@ -206,6 +206,21 @@ public class TETile {
         }
         TETile that = (TETile) x;
         return this.character == that.character;
+    }
+
+    public void changeBackgroundColor(Color a){
+        backgroundColor = a;
+    }
+
+    public void changeTextColor(Color a){
+        textColor = a;
+    }
+    public Color getBackgroundColor() {
+        return backgroundColor;
+    }
+
+    public Color getTextColor() {
+        return textColor;
     }
 
     @Override
